@@ -1,0 +1,336 @@
+╔═════════════════════════════════════════════════════════════════════════════╗
+║                                                                             ║
+║              SCRIPT CLOSES IMMEDIATELY? HERE'S HOW TO FIX IT!              ║
+║                                                                             ║
+║                       Troubleshooting Guide v1.0                           ║
+║                                                                             ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+
+═════════════════════════════════════════════════════════════════════════════════
+PROBLEM: Script opens and closes instantly, I can't see what's happening!
+═════════════════════════════════════════════════════════════════════════════════
+
+This usually happens because:
+  1. ❌ Not running as Administrator (MOST COMMON!)
+  2. ❌ Script encounters an error and closes
+  3. ❌ Files in wrong location
+  4. ❌ Windows PowerShell settings
+
+═════════════════════════════════════════════════════════════════════════════════
+SOLUTION 1: USE DIAGNOSTIC LAUNCHER (EASIEST) ⭐⭐⭐
+═════════════════════════════════════════════════════════════════════════════════
+
+Try this FIRST - it will show you exactly what's wrong:
+
+Steps:
+  1. Find: DIAGNOSTIC_LAUNCHER.bat (in the same folder)
+  2. Right-click on it
+  3. Select: "Run as Administrator"
+  4. Click: YES when Windows asks
+  
+This will:
+  ✅ Check if you have admin privileges
+  ✅ Find all the optimization scripts
+  ✅ Run them one by one
+  ✅ Show you the status of each
+  ✅ Tell you if anything is wrong
+
+If this works, you're good! Just restart your computer after.
+
+═════════════════════════════════════════════════════════════════════════════════
+SOLUTION 2: FIX ADMINISTRATOR PERMISSIONS
+═════════════════════════════════════════════════════════════════════════════════
+
+The #1 reason scripts close instantly is NOT running as Administrator!
+
+Follow these steps EXACTLY:
+
+1. Find RUN_ME_FIRST_RYZEN.bat in folder
+   Location: c:\Users\HP\Desktop\pc optimizations by dahomy\PC_Optimization_Suite\
+
+2. Right-click on RUN_ME_FIRST_RYZEN.bat
+   
+3. A menu will appear - Select: "Run as Administrator"
+   (It's usually at the top of the menu)
+
+4. Click: YES when Windows asks "Do you want to allow this app to make changes?"
+   
+5. NOW the script should run properly!
+
+VISUAL GUIDE:
+┌──────────────────────────────────┐
+│ Right-click menu                 │
+│                                  │
+│ Send to               ►           │
+│ Cut                              │
+│ Copy                             │
+│ Create shortcut                  │
+│ Rename                           │
+│ ─────────────────────            │
+│ Run as Administrator  ← CLICK    │
+│ Properties                       │
+└──────────────────────────────────┘
+
+═════════════════════════════════════════════════════════════════════════════════
+SOLUTION 3: MANUALLY RUN SCRIPTS ONE BY ONE
+═════════════════════════════════════════════════════════════════════════════════
+
+If master launcher still doesn't work, try running individually:
+
+Step 1: Open File Explorer
+  (Press Windows key + E)
+
+Step 2: Navigate to folder:
+  c:\Users\HP\Desktop\pc optimizations by dahomy\PC_Optimization_Suite\
+
+Step 3: Right-click first script as Administrator:
+  1_SYSTEM_OPTIMIZER.bat → Run as Administrator
+
+Step 4: Wait for it to complete (2-3 minutes)
+
+Step 5: Repeat for scripts 2-9 in order:
+  2_GRAPHICS_OPTIMIZER.bat
+  3_POWER_PLAN_OPTIMIZER_RYZEN.bat
+  4_NETWORK_OPTIMIZER.bat
+  5_STORAGE_MEMORY_OPTIMIZER_32GB.bat
+  6_CPU_OPTIMIZER_RYZEN.bat
+  7_ADVANCED_TWEAKS.bat
+  8_GPU_MEMORY_OPTIMIZER_AMD.bat
+  9_FINAL_CLEANUP.bat
+
+Step 6: Restart your computer when done
+
+This is slower but you'll see exactly what's happening!
+
+═════════════════════════════════════════════════════════════════════════════════
+SOLUTION 4: CHECK IF FILES ARE IN RIGHT PLACE
+═════════════════════════════════════════════════════════════════════════════════
+
+The script looks for 9 optimization files in the same folder.
+
+Check if you have ALL of these in the same folder:
+
+Location: c:\Users\HP\Desktop\pc optimizations by dahomy\PC_Optimization_Suite\
+
+Required files (all 9):
+  ☐ 1_SYSTEM_OPTIMIZER.bat
+  ☐ 2_GRAPHICS_OPTIMIZER.bat
+  ☐ 3_POWER_PLAN_OPTIMIZER_RYZEN.bat
+  ☐ 4_NETWORK_OPTIMIZER.bat
+  ☐ 5_STORAGE_MEMORY_OPTIMIZER_32GB.bat
+  ☐ 6_CPU_OPTIMIZER_RYZEN.bat
+  ☐ 7_ADVANCED_TWEAKS.bat
+  ☐ 8_GPU_MEMORY_OPTIMIZER_AMD.bat
+  ☐ 9_FINAL_CLEANUP.bat
+
+New helper scripts:
+  ☐ DIAGNOSTIC_LAUNCHER.bat (new diagnostic tool)
+  ☐ BONUS_CLEANUP_TEMP_OPTIMIZER.bat (bonus cleanup)
+  ☐ 6_CPU_OPTIMIZER_RYZEN_v3.1_ENHANCED.bat (enhanced CPU version)
+
+If any are MISSING:
+  The script will close when it can't find them
+  Contact me to get the missing files
+
+═════════════════════════════════════════════════════════════════════════════════
+SOLUTION 5: RUN FROM COMMAND PROMPT (ADVANCED)
+═════════════════════════════════════════════════════════════════════════════════
+
+This method shows you the output and errors:
+
+Steps:
+
+1. Press: Windows key + R
+   (This opens "Run" dialog)
+
+2. Type: cmd
+   Click: OK
+
+3. A black command prompt window appears
+
+4. Copy-paste this command (right-click to paste):
+   
+   cd /d "c:\Users\HP\Desktop\pc optimizations by dahomy\PC_Optimization_Suite"
+
+5. Press: Enter
+
+6. Then type:
+   RUN_ME_FIRST_RYZEN.bat
+
+7. Press: Enter
+
+This will show you any error messages and keep the window open!
+
+═════════════════════════════════════════════════════════════════════════════════
+SOLUTION 6: CHECK WINDOWS EXECUTION POLICY
+═════════════════════════════════════════════════════════════════════════════════
+
+Sometimes Windows blocks script execution.
+
+To fix (if other solutions don't work):
+
+1. Press: Windows key + X
+   Select: "Windows PowerShell (Admin)"
+
+2. Copy-paste this command:
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+
+3. Press: Enter
+
+4. Type: Y and press Enter
+
+5. Close PowerShell
+
+6. Now try running the script again!
+
+═════════════════════════════════════════════════════════════════════════════════
+WHAT EACH SOLUTION DOES
+═════════════════════════════════════════════════════════════════════════════════
+
+Solution 1 (DIAGNOSTIC_LAUNCHER):
+  ✅ Easiest
+  ✅ Shows what's wrong
+  ✅ Runs scripts step by step
+  ✅ Best for troubleshooting
+  👉 TRY THIS FIRST!
+
+Solution 2 (Run as Administrator):
+  ✅ Fixes most closing issues
+  ✅ Simple 2-step fix
+  ✅ Usually works
+  👉 TRY THIS SECOND!
+
+Solution 3 (Manual scripts):
+  ✅ Maximum control
+  ✅ See each script run
+  ✅ Test as you go
+  👉 Most reliable method
+
+Solution 4 (Check files):
+  ✅ Verifies setup
+  ✅ Finds missing files
+  ✅ Quick verification
+  👉 Check if stuck
+
+Solution 5 (Command Prompt):
+  ✅ Shows all errors
+  ✅ Most detailed
+  ✅ Advanced debugging
+  👉 For technical help
+
+Solution 6 (Execution Policy):
+  ✅ Fixes Windows blocks
+  ✅ Allows script running
+  ✅ Permanent fix
+  👉 If nothing else works
+
+═════════════════════════════════════════════════════════════════════════════════
+STEP-BY-STEP: GUARANTEED TO WORK
+═════════════════════════════════════════════════════════════════════════════════
+
+Follow EXACTLY in this order:
+
+STEP 1: Try Diagnostic Launcher
+  1. Open File Explorer (Windows key + E)
+  2. Go to: PC_Optimization_Suite folder
+  3. Right-click: DIAGNOSTIC_LAUNCHER.bat
+  4. Select: Run as Administrator
+  5. Click: YES at the permission prompt
+  
+  Does it work? 
+  ✅ YES → Congrats! Restart and enjoy 60+ FPS!
+  ❌ NO → Go to STEP 2
+
+STEP 2: Try Run as Administrator
+  1. Open File Explorer
+  2. Go to: PC_Optimization_Suite folder
+  3. Right-click: RUN_ME_FIRST_RYZEN.bat
+  4. Select: Run as Administrator
+  5. Click: YES
+  
+  Does it work?
+  ✅ YES → Congrats! Restart and enjoy 60+ FPS!
+  ❌ NO → Go to STEP 3
+
+STEP 3: Manual Script Running
+  1. Open File Explorer
+  2. Go to: PC_Optimization_Suite folder
+  3. Right-click: 1_SYSTEM_OPTIMIZER.bat
+  4. Select: Run as Administrator
+  5. Wait 2-3 minutes for it to complete
+  6. Repeat for scripts 2-9
+  
+  Does it work?
+  ✅ YES → Congratulations! Restart and enjoy!
+  ❌ NO → Go to STEP 4
+
+STEP 4: Check Files Location
+  1. Open File Explorer
+  2. Navigate to: c:\Users\HP\Desktop\pc optimizations by dahomy\PC_Optimization_Suite\
+  3. Count the .bat files
+  4. You should have at least 12 .bat files
+  
+  Are they all there?
+  ✅ YES → Try STEP 2 again, maybe admin wasn't selected properly
+  ❌ NO → Some files are missing, contact for help
+
+═════════════════════════════════════════════════════════════════════════════════
+COMMON ERROR MESSAGES & FIXES
+═════════════════════════════════════════════════════════════════════════════════
+
+ERROR: "The system cannot find the file specified"
+FIX: Files are in wrong location - check they're all together in the folder
+
+ERROR: "Access denied"
+FIX: Not running as Administrator - right-click and select "Run as Administrator"
+
+ERROR: "The file is not recognized as a batch file"
+FIX: The .bat extension got changed - rename back to include .bat
+
+ERROR: "Windows cannot find 'command'"
+FIX: A script file is missing - check all 9 are in the folder
+
+ERROR: Script closes immediately with black window
+FIX: Run from command prompt (Solution 5) to see the error message
+
+═════════════════════════════════════════════════════════════════════════════════
+IF NOTHING WORKS - TELL ME:
+═════════════════════════════════════════════════════════════════════════════════
+
+When asking for help, tell me:
+
+1. Which solution you tried (1-6)
+2. What happened (did it close? error message?)
+3. Can you see a black window or does it just disappear?
+4. How long before it closes (instantly? few seconds?)
+5. Do you get any error messages? (copy/paste them)
+
+This helps me diagnose the problem!
+
+═════════════════════════════════════════════════════════════════════════════════
+QUICK CHECKLIST
+═════════════════════════════════════════════════════════════════════════════════
+
+Before you start, make sure:
+  ☐ You have admin privileges on this computer
+  ☐ All files are in the same folder (PC_Optimization_Suite)
+  ☐ Files have .bat extension (not .bat.txt or .bat.bat)
+  ☐ You're right-clicking and selecting "Run as Administrator"
+  ☐ Your antivirus isn't blocking batch scripts
+
+═════════════════════════════════════════════════════════════════════════════════
+NEXT STEPS
+═════════════════════════════════════════════════════════════════════════════════
+
+1. Try DIAGNOSTIC_LAUNCHER.bat (easiest!)
+2. If that works, restart computer
+3. Test gaming - should see 60+ FPS!
+4. If not working, try Solution 2 (Run as Administrator)
+5. If still stuck, try Solution 3 (Manual scripts)
+
+═════════════════════════════════════════════════════════════════════════════════
+
+You've got this! Start with DIAGNOSTIC_LAUNCHER.bat and it will tell you 
+exactly what's wrong! 💪
+
+═════════════════════════════════════════════════════════════════════════════════

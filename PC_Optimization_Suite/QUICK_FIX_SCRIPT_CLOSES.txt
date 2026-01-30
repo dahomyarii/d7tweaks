@@ -1,0 +1,84 @@
+╔═════════════════════════════════════════════════════════════════════════════╗
+║                                                                             ║
+║         SCRIPT CLOSES INSTANTLY? TRY THIS RIGHT NOW! (Quick Fix)           ║
+║                                                                             ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+
+═════════════════════════════════════════════════════════════════════════════════
+THE #1 REASON: NOT RUNNING AS ADMINISTRATOR!
+═════════════════════════════════════════════════════════════════════════════════
+
+99% of the time, this is the problem:
+
+You double-clicked the file normally ❌
+But you need to RIGHT-CLICK and select "Run as Administrator" ✅
+
+═════════════════════════════════════════════════════════════════════════════════
+QUICK FIX (30 SECONDS)
+═════════════════════════════════════════════════════════════════════════════════
+
+DO THIS NOW:
+
+1. Open File Explorer (Windows key + E)
+
+2. Go to this folder:
+   C:\Users\HP\Desktop\pc optimizations by dahomy\PC_Optimization_Suite
+
+3. Find: DIAGNOSTIC_LAUNCHER.bat
+
+4. RIGHT-CLICK on it (NOT double-click!)
+
+5. Select: "Run as Administrator" from the menu
+
+6. Click: YES when Windows asks
+
+That's it! This will show you exactly what's wrong and fix it!
+
+═════════════════════════════════════════════════════════════════════════════════
+STILL DOESN'T WORK? TRY THIS:
+═════════════════════════════════════════════════════════════════════════════════
+
+1. Find: RUN_ME_FIRST_RYZEN.bat
+
+2. RIGHT-CLICK on it
+
+3. Select: "Run as Administrator"
+
+4. Click: YES
+
+═════════════════════════════════════════════════════════════════════════════════
+STILL NOTHING? MANUAL METHOD:
+═════════════════════════════════════════════════════════════════════════════════
+
+1. Open File Explorer
+
+2. Go to PC_Optimization_Suite folder
+
+3. Right-click: 1_SYSTEM_OPTIMIZER.bat
+
+4. Run as Administrator (wait 2-3 min)
+
+5. Then right-click: 2_GRAPHICS_OPTIMIZER.bat
+
+6. Run as Administrator (wait 2-3 min)
+
+7. Repeat for scripts 3-9
+
+8. Restart your computer
+
+═════════════════════════════════════════════════════════════════════════════════
+KEY POINTS:
+═════════════════════════════════════════════════════════════════════════════════
+
+RIGHT-CLICK, not double-click! 🖱️
+Select "Run as Administrator" ⚙️
+Click YES when prompted 👍
+Wait for completion ⏳
+Restart when done 🔄
+
+═════════════════════════════════════════════════════════════════════════════════
+THAT'S IT!
+
+Try DIAGNOSTIC_LAUNCHER.bat right now and it will tell you what's wrong!
+
+═════════════════════════════════════════════════════════════════════════════════
